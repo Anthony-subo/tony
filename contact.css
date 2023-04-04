@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ion-icon{
+    color: red;
+}
+body{
+    background-image: url(wallpaperflare.com_wallpaper\ \(10\).jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header nav{
+    color: black;
+}
+ul{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+ul li{
+    margin-left: 60px;
+    color: black;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+}
+ul li a:hover{
+    color: white;
+    transition: 2s ease;
+
+}
+ul li a:active{
+    color: black;
+    transition: 2s ease;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.ctn{
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.ctn h2{
+    text-decoration: underline;
+    color: red;
+}
+.fom{
+    margin-top: 20px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: black;
+}
+label{
+    color: red;
+}

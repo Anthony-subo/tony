@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url();
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header nav{
+    color: black;
+}
+ul{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+ul li{
+    margin-left: 60px;
+    color: black;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: red;
+    transition: 2s ease;
+
+}
+ul li a:active{
+    color: black;
+    transition: 2s ease;
+}
