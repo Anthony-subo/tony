@@ -3,8 +3,11 @@
     padding: 0;
     text-decoration: none;
 }
-body{
-    background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7));
+    background-image: url(wallpaperflare.com_wallpaper\ \(5\).jpg);
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,14 +32,21 @@ ul li a{
     text-decoration: none;
     color: #fff;
 }
-ul li a:hover{
+.nav-links ul li a:hover{
     color: red;
     transition: 2s ease;
-
 }
-ul li a:active{
-    color: black;
-    transition: 2s ease;
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
 }
 h1{
     top: 50%;
@@ -53,4 +63,32 @@ button{
     background-color: red;
     font-size: x-large;
     font-weight: lighter;
+}
+h2 button{
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: red;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons logo{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.heart-outline{
+    color: #f44336;
 }

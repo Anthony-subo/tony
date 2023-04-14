@@ -3,7 +3,10 @@
     padding: 0;
 }
 .header{
-    background-image: url();
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7));
+    background-image: url(quran-holy-book-islam-thumbnail.jpg);
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,12 +31,91 @@ ul li a{
     text-decoration: none;
     color: black;
 }
-ul li a:hover{
+.nav-links ul li a:hover{
     color: red;
     transition: 2s ease;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+table{
+    border-style: solid;
+    border-bottom: solid;
+    border-top: solid;
+    border-right: solid;
+    border-left: solid;
+    float: right;
+    position: relative;
+    width: 700px;
+    background-color: #ff3fff;
+    margin-top: 30px;
+   
+}
+th{
+    border-style: dotted;
+    width: 90px;
+    height: 40px;
+    color: black;
+}
+td{
+    text-align: center;
+    border-style: dotted;
+    width: 90px;
+    height: 40px;
 
 }
-ul li a:active{
-    color: black;
-    transition: 2s ease;
+h1{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+textarea{
+    margin-left: 100px;
+}
+.coment{
+    display: flex;
+    position: relative;
+
+}
+.coment-1{
+    flex-shrink: 70%;
+    box-sizing: border-box;
+    background-color: #ff3fff;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+img{
+    border-radius: 80%;
+    width: 50px;
+    height: 50px;
+}
+.footer{
+    min-height: 100hv;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons logo{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.heart-outline{
+    color: #f44336;
 }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="join.css" >
+    </head>
+    <body>
+        <section class="header" id="mzing">
+            <nav>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="about.html">ABOUT</a></li>
+                    <li> <a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li> <a href="map.html">LOCATION</a></li>
+                </ul>
+            </nav> 
+        
+            <button onclick="showFom()">JOIN US</button>
+            <div class="form" id="navlinks">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="password" name="" placeholder="Enter Password Here">
+                <button class="btn"><a href="#"> login</a></button>
+                <p class="link">Dont't have an account<br>
+                <a href="#">Sign up </a>here</p>
+                <p class="liw">Log in with</p> 
+            </div> 
+        </section>
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showFom(){
+                navlinks.style.right ="-3000px"
+            }
+            </script>
+    </body>
+</html>
